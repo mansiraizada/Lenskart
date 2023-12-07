@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Rajdhani;
+    src: url('./Rajdhani-Regular.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -378,7 +383,7 @@ html, body{
 }
 
 #eyeglasses{
-    width: 100%;
+    width: 80vw;
     height: 2vw;
     /* background-color: pink; */
     text-transform: uppercase;
@@ -391,11 +396,11 @@ html, body{
 #eyeglasses::after{
     content: "" ;
     background-color: rgba(187, 182, 182, 0.736);
-    width: 90%;
+    width: 79.5vw;
     height: 0.1vw;
     position: absolute;
     top: 220.5%;
-    left: 5%;
+    left: 15.5%;
 }
 
 #eyeglasses_img{
@@ -424,7 +429,7 @@ html, body{
 }
 
 #sunglasses{
-    width: 100%;
+    width: 80vw;
     height: 2vw;
     text-transform: uppercase;
     margin-left: 5vw;
@@ -436,11 +441,11 @@ html, body{
 #sunglasses::after{
     content: "" ;
     background-color: rgba(187, 182, 182, 0.736);
-    width: 90%;
+    width: 79.5vw;
     height: 0.1vw;
     position: absolute;
     top: 271%;
-    left: 5%;
+    left: 15.5%;
 }
 
 #footer{
