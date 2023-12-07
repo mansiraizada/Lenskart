@@ -39,6 +39,10 @@ html, body{
     /* background-color: yellow; */
 }
 
+#nav_left:hover{
+    cursor: pointer;
+}
+
 #nav_center{
     width: 30vw;
     padding: 0.5vw;
@@ -60,6 +64,10 @@ html, body{
     font-size: 1vw;
     font-weight: 500;
     /* background-color: yellow; */
+}
+
+#nav_right h3:hover{
+    cursor: pointer;
 }
 
 #glasses_option{
@@ -102,6 +110,10 @@ html, body{
     font-weight: 500;
     border-radius: 5px;
     background-color: aqua;
+}
+
+#glasses_option h3:hover{
+    cursor: pointer;
 }
 
 #blu{
